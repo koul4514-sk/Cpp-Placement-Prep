@@ -14,6 +14,9 @@ int main(){
             j++;
 
         }
+        // Print newline after completing one row (inner loop).
+        // If endl is placed inside the inner loop, the pattern will break
+        // and numbers will be printed in separate lines.
         cout<<endl;
         i++;
         

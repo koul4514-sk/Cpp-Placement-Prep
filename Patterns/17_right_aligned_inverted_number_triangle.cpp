@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Enter n: ";
+    cin >> n;
+
+    for (int i = 1; i <= n; i++) {
+
+        // Print leading spaces
+        for (int j = 1; j <= i - 1; j++) {
+            cout << "  ";
+        }
+
+        // Print numbers
+        for (int k = n; k > i - 1; k--) {
+            cout << i << " ";
+        }
+
+        cout << endl;
+    }
+
+    return 0;
+}
